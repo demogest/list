@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T7y4GOSi04b3ED/+I1PIRA
+! Checksum: 6eM0rshxVOzRWyA5sez+pw
 ! Title: My AdFilters（for Mobile）
 ! Expires: 12 hours
-! Version: 202207100204
-! Last Modified: 2022年07月10日 02:04
+! Version: 202207100834
+! Last Modified: 2022年07月10日 08:34
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance
 ! 感谢各位前辈的分享！
@@ -17385,6 +17385,8 @@ _800x80_
 ##.BCA_Advertisement
 ##.BGoogleAds300
 ##.BOT-ADS
+##.BOX_Ad
+##.BOX_LeadAd
 ##.Banner300x250
 ##.Banner468X60
 ##.BannerAD728
@@ -18138,6 +18140,7 @@ _800x80_
 ##.ad-banner-btf
 ##.ad-banner-container
 ##.ad-banner-content
+##.ad-banner-full-wrapper
 ##.ad-banner-image
 ##.ad-banner-inlisting
 ##.ad-banner-label
@@ -18339,6 +18342,7 @@ _800x80_
 ##.ad-content-area
 ##.ad-content-rectangle
 ##.ad-content-slot
+##.ad-content-wrapper
 ##.ad-context
 ##.ad-cover
 ##.ad-ctn
@@ -19135,6 +19139,7 @@ _800x80_
 ##.ad-wrapper--slideshowhalfpage
 ##.ad-wrapper-bg
 ##.ad-wrapper-left
+##.ad-wrapper-mobile-atf
 ##.ad-wrapper-outer
 ##.ad-wrapper-sticky
 ##.ad-wrapper-top
@@ -23200,6 +23205,7 @@ _800x80_
 ##.area_ad07
 ##.area_ad09
 ##.area_ad2
+##.arena-ad-col
 ##.aroundAdUnit
 ##.artAd
 ##.artAdInner
@@ -31972,6 +31978,7 @@ _800x80_
 ##app-ad
 ##app-advertisement
 ##app-large-ad
+##ark-top-ad
 ##aside[id^="adrotate_widgets-"]
 ##aside[id^="advads_ad_widget-"]
 ##aside[id^="tn_ads_widget-"]
@@ -57745,6 +57752,7 @@ flashscore.co.uk##.boxOverContent__banner
 fliiby.com##.box_300x250
 tribunnews.com##.box__reserved
 zambianeye.com##.box_skitter
+functions-online.com##.box_wide
 canadaka.net##.boxadd
 businessplus.ie##.bp_billboard_single
 brainyquote.com##.bq_ad_320x250_multi
@@ -57831,7 +57839,7 @@ drivespark.com##.cmscontent-left-article
 careerindia.com##.cmscontent-top
 cnn.com##.cn--expandable.cn--idx-1
 thisismoney.co.uk##.cnr5
-browserhow.com,charlieintel.com,cryptoslate.com,flickeringmyth.com,gameinfinitus.com,hdmovies4u.live,iotwreport.com,rezence.com,rok.guide##.code-block
+browserhow.com,charlieintel.com,chromeunboxed.com,cryptoslate.com,flickeringmyth.com,gameinfinitus.com,hdmovies4u.live,iotwreport.com,rezence.com,rok.guide##.code-block
 conservativebrief.com##.code-block > span
 androidsage.com,cryptoreporter.info,ets2.lt,geekdashboard.com,geekspin.co,getdroidtips.com,kanonitv.net,techpp.com,whats-on-netflix.com##.code-block-1
 trendingpolitics.com##.code-block-12
@@ -58663,6 +58671,7 @@ phorio.com##.partnerlogos-wrapper
 2oceansvibe.com,speedcafe.com,travelweekly.com##.partners
 letsgodigital.org,letsgomobile.org##.partners-bar
 cbn.com##.partners-block
+practicalecommerce.com##.partners-sidebar
 arrivealive.co.za##.partnersheading
 liveuamap.com##.passby
 writerscafe.org##.pay
@@ -63912,6 +63921,13 @@ ubmcmm.baidustatic.com
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
+||666679.xyz^
+||uu99k.com^
+||gfnormal00aj.com^
+||pqfgtp.cn^
+||siqwfy.cn^
+||lvjoe.pw^
+||gogpix.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -89012,6 +89028,7 @@ fqsousou.com,kengso.com#@#.user-share
 /TrackingService.js
 /trackingService.min.js
 /trackingService/*
+/trackingTools.
 /trackingVtm.
 /trackinpage.js
 /trackIt.js
